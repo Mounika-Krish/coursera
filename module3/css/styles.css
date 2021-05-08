@@ -3,6 +3,7 @@ body{
     background-color: #f2aa4cff;
     color:#ffff;
     font-family:'oxygen',sans-serif ;
+    padding-top: 160px;
 }
 #header-nav{
     background-color:#101820ff;
@@ -47,4 +48,28 @@ body{
     clear: both;
     background-color: white;
     margin-top: -10px;
+}
+@media(max-width: 767px){
+    body{
+        padding-top: 250px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+
+}
+
+@media (min-width:1200px){
+
+}
+
+.text-center{
+    font-size: large;
+    font-weight: bold;
+    color: black;
 }
